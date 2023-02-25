@@ -1,3 +1,18 @@
 {
-  "rewrites": [{ "source": "/canvas-radar", "destination": "https://canvas-radar.vercel.app" }]
+  "rewrites": [
+    {
+      "source": "/canvas-radar/",
+      "destination": "https://canvas-radar.vercel.app/",
+      "git": "https://github.com/Fog3211/canvas-radar"
+    },
+    {
+      "source": "/canvas-radar/:match*",
+      "destination": "https://canvas-radar.vercel.app/:match*"
+    },
+    { "source": "/", "destination": "https://playground.fog3211.com/" },
+    {
+      "source": "/:match*",
+      "destination": "https://playground.fog3211.com/:match*"
+    }
+  ]
 }
