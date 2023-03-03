@@ -2,8 +2,7 @@
   "rewrites": [
     {
       "source": "/canvas-radar/",
-      "destination": "https://canvas-radar.vercel.app/",
-      "git": "https://github.com/Fog3211/canvas-radar"
+      "destination": "https://canvas-radar.vercel.app/"
     },
     {
       "source": "/canvas-radar/:match*",
@@ -11,12 +10,11 @@
     },
     {
       "source": "/chatgpt/",
-      "destination": "https://chatgpt-git-main-fog3211.vercel.app/",
-      "git": "https://github.com/Fog3211/chatgpt"
+      "destination": "https://chatgpt.fog3211.vercel.app/"
     },
     {
       "source": "/chatgpt/:match*",
-      "destination": "https://chatgpt-git-main-fog3211.vercel.app/:match*"
+      "destination": "https://chatgpt.fog3211.vercel.app/:match*"
     },
     { "source": "/", "destination": "https://playground.fog3211.com/" },
     {
