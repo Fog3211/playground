@@ -9,6 +9,15 @@
       "source": "/canvas-radar/:match*",
       "destination": "https://canvas-radar.vercel.app/:match*"
     },
+    {
+      "source": "/chatgpt/",
+      "destination": "https://chatgpt-git-main-fog3211.vercel.app/",
+      "git": "https://github.com/Fog3211/chatgpt"
+    },
+    {
+      "source": "/chatgpt/:match*",
+      "destination": "https://chatgpt-git-main-fog3211.vercel.app/:match*"
+    },
     { "source": "/", "destination": "https://playground.fog3211.com/" },
     {
       "source": "/:match*",
